@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://veromary.github.io/atom.xml" rel="self"/>
   <link href="http://veromary.github.io/"/>
-  <updated>2013-08-24T15:13:30+10:00</updated>
+  <updated>2013-08-24T15:20:12+10:00</updated>
   <id>http://veromary.github.io/</id>
   <author>
     <name><![CDATA[Veronica Brandt]]></name>
@@ -12,5 +12,16 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First-post]]></title>
+    <link href="http://veromary.github.io/blog/2013/08/24/first-post/"/>
+    <updated>2013-08-24T15:15:00+10:00</updated>
+    <id>http://veromary.github.io/blog/2013/08/24/first-post</id>
+    <content type="html"><![CDATA[<p>Here goes nothing.</p>
+
+<p>Hello, welcome to the latest in a long line of webpages set up by itinerant troublemaker VB.  Much of this new website is very new to me.  It might just help me get my act together and finish a few projects!</p>
+]]></content>
+  </entry>
   
 </feed>
