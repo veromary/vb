@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Computers | My Octopress Blog]]></title>
+  <link href="http://veromary.github.io/blog/categories/computers/atom.xml" rel="self"/>
+  <link href="http://veromary.github.io/"/>
+  <updated>2013-09-23T11:17:07+10:00</updated>
+  <id>http://veromary.github.io/</id>
+  <author>
+    <name><![CDATA[Veronica Brandt]]></name>
+    <email><![CDATA[veronica@brandt.id.au]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LMS for a homeschool]]></title>
+    <link href="http://veromary.github.io/blog/2013/07/17/lms-for-a-homeschool/"/>
+    <updated>2013-07-17T11:58:34+10:00</updated>
+    <id>http://veromary.github.io/blog/2013/07/17/lms-for-a-homeschool</id>
+    <content type="html"><![CDATA[<p><a href="http://brandt.id.au/wp-content/uploads/2013/07/jumblelms.png"><img src="http://brandt.id.au/wp-content/uploads/2013/07/jumblelms.png" alt="jumblelms" /></a>My project for the winter holidays was to make an online course to go through the multiplication tables with my four sons, ages 6 &ndash; 11.  It was meant to be an pleasant diversion from regular homeschooling, but turned into an epic learning experience!</p>
+
+<p>There are many options out there.  My little collage of logos there you&rsquo;ll see some open sources LMSs: <a href="http://moodle.org">Moodle</a>, <a href="http://chamilo.org">Chamilo</a> and <a href="http://claroline.net">Claroline</a>; a couple of hosted services: <a href="https://www.udemy.com/">udemy</a> and <a href="http://www.talentlms.com/">TalentLMS</a> and, lastly, some helpful tools <a href="http://wordpress.org">WordPress</a>, <a href="http://hotpot.uvic.ca/">Hot Potatoes</a> and <a href="http://www.randelshofer.ch/tinylms/">TinyLMS</a>.  There are more out there.  Another open source LMS I installed was <a href="http://www.efrontlearning.net/">efront learning</a> &ndash; which may be related to TalentLMS (see above).</p>
+
+<h2>Self-hosted LMS</h2>
+
+<p>At first (after my last look at the idea some years ago), I was settled on <a href="http://chamilo.org">Chamilo</a>, a very handsome Learning Management System (LMS).  It comes in two flavours right now, 1.9.6 and <a href="http://lcms.chamilo.org/">LCMS Connect</a>.  They are both great &ndash; 1.9.6 looks better for the K-6 age range, but Connect is a bit more sophisticated.</p>
+
+<p>It was all going well until I had a mysterious problem where one computer would refuse to show any webpages from my webhosting.  Other websites would load fine.  My home internet access is not the greatest, so slow patches are par for the course, but sometimes it would be just my webpages that were running slowly.</p>
+
+<p>I learned about Shared Hosting vs VPS.  Also that having several students logged in at the same time on your average LMS requires hefty web hosting &ndash; not your Economy class shared hosting.  Most of the information on this phenomenon refers to the Great <a href="http://moodle.org">Moodle</a> of Western Australia, but applies to Chamilo and other LMSs too. It might work if you installed the LMS on your own network at home, but I have not networked my home computers.  Some estimate the server would need 2Gb RAM to be on the safe side.</p>
+
+<p>So, now I reluctantly turn my gaze from the beautiful, shiny, self-hosted, open source LMSs.  There seem to be two options: a) make do with webpages with simple quiz things or b) sell out and use a commercial service.</p>
+
+<h2>Webpages with quizzes</h2>
+
+<p>This is a Wordpress blog, so it makes sense to explore what I already have up and running.  There are LMS plugins, like the free <a href="http://namaste-lms.org/">Namaste!</a> or many, many, many paid services.  Namaste! has a catch, that it works with an exam plugin, which has a basic free version and a range of paid premium versions.</p>
+
+<p>I can do my own &ldquo;course&rdquo; by making webpages, each ending with a quiz to be passed to reveal the address of the next page plus a form to submit the results to my email.  This is fiddly, but gets the consistent looks of this blog, plus it hopefully won&rsquo;t exceed the shared hosting limits like Chamilo did.  It&rsquo;s fiddly to set up, but it&rsquo;s cheap.</p>
+
+<p>There are some tools for making this easier.  <a href="http://www.randelshofer.ch/tinylms/">TinyLMS</a> takes a SCORM package and formats it for web and/or printing.  The resulting webpages can be put online, on CD, or even zipped up and emailed to students.  All you need is a SCORM editor, like <a href="http://exelearning.org/">eXe learning</a> from New Zealand and <a href="http://www.reload.ac.uk/">RELOAD</a> from the UK which both seem to be very quiet lately.  The RELOAD website displays a notice that they are undergoing an overhaul, dated July 2008.  There is a new one called <a href="http://sourceforge.net/p/exe-nextgen/">EXE Next Gen</a> from Afghanistan which looks Great.  They seem to have fixed up the NZ eXe and enhanced it.  It exports to several formats including one for mobiles.  Unfortunately my debian box doesn&rsquo;t seem to like the ubuntu packages, but something to bear in mind.  (<strong>Update:</strong> there is a current, working version of eXe at <a href="http://exelearning.net/?lang=en">exelearning.net</a> based in Spain.)</p>
+
+<p>And I should mention <a href="http://hotpot.uvic.ca">Hot Potatoes</a> a Windows program that works on Linux under wine.  It makes javascript quizzes that you can export as webpages and upload as they are or embed into blogs like this.  Their philosophy is not so much assessment, but doing exercises to help you learn.</p>
+
+<h2>Going commercial</h2>
+
+<p>There are many companies only too willing to set up your LMS for a fee.  Some are particularly interesting to homeschoolers since they have a free version for a limited number of students &ndash; which, depending on the size of your family, might suit you right down to the ground.  On the other hand, if you want to share your courses with other families then someone has to start paying.</p>
+
+<p>I&rsquo;ve started a site at <a href="http://talentlms.com">talentLMS</a> which is reminiscent of the free <a href="http://efrontlearning.org">efront learning</a> and they both come from Greece.  It is very slick.  For the time being <a href="http://brandt.talentlms.com/shared/start/key:GBKMFPJU">this is my multiplication course</a>.  We&rsquo;ll see how it goes.</p>
+
+<h2>In conclusion</h2>
+
+<p>I would have liked to show off my Chamilo install here, but it would bring down the rest of my webpages.  I have learnt a bit about the limits of what is possible on the internet.  Maybe, as time goes by, the price of strong hosting will come down, but then again, there will always be fancier software available to tax the servers.</p>
+
+<p>If you want to pay $30 per month for something, consider <a href="http://www.churchinneed.org/">Aid to the Church in Need</a>, <a href="http://fli.org">Family Life International</a> or <a href="http://fatima.org.au">Australia Needs Fatima</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[multiplication game]]></title>
+    <link href="http://veromary.github.io/blog/2012/09/26/multiplication-game/"/>
+    <updated>2012-09-26T08:07:45+10:00</updated>
+    <id>http://veromary.github.io/blog/2012/09/26/multiplication-game</id>
+    <content type="html"><![CDATA[<p><a href="http://scratch.mit.edu/projects/brandts/2799658"><img src="http://scratch.mit.edu/static/projects/brandts/2799658_med.png" alt="Scratch Project" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Google Redirect Virus]]></title>
+    <link href="http://veromary.github.io/blog/2012/09/12/the-google-redirect-virus/"/>
+    <updated>2012-09-12T13:51:30+10:00</updated>
+    <id>http://veromary.github.io/blog/2012/09/12/the-google-redirect-virus</id>
+    <content type="html"><![CDATA[<p>Most of our computers run Linux, so most of the time I can ignore malware, trojans, viruses and all that.  Something came up recently that sent me looking for a way to get rid of a google redirect virus on a computer running Windows XP.  It seems to be a common enough problem &ndash; there are heaps of websites and forum posts on the topic &ndash; but sifting through all rubbish takes time.  I ended up using <a href="http://www.surfright.nl/en/hitmanpro/">HitmanPro</a> and it found the offending dll and removed it for free.  After rebooting the computer there were no more annoying redirects from google searches.</p>
+
+<p>I write this in case it helps someone, and also to say thanks for the free program.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hot Potatoes in Wordpress?]]></title>
+    <link href="http://veromary.github.io/blog/2012/06/09/hot-potatoes-in-wordpress/"/>
+    <updated>2012-06-09T16:17:54+10:00</updated>
+    <id>http://veromary.github.io/blog/2012/06/09/hot-potatoes-in-wordpress</id>
+    <content type="html"><![CDATA[<p>This is an experimental sort of thing &ndash; seeing if it&rsquo;s quicker to google for an answer or just try things out yourself.</p>
+
+<pre><code>&lt;a href="http://brandt.id.au/wp-content/uploads/2012/06/corjesumatch.htm"&gt;corjesumatch&lt;/a&gt;
+</code></pre>
+
+<p><a href="http://brandt.id.au/wp-content/uploads/2012/06/corjesumatch.htm">corjesumatch</a></p>
+
+<p>So that&rsquo;s like an external link which might work.</p>
+
+<p>It doesn&rsquo;t look very embeddable &ndash; a whole long javascript thing as well as a lot of style stuff.</p>
+
+<p>Unless the iframe trick works</p>
+
+<pre><code>&lt;iframe src="http://brandt.id.au/wp-content/uploads/2012/06/corjesumatch.htm" height="400" width="400"&gt;&lt;/iframe&gt;
+</code></pre>
+
+<p>And to put code in a wordpress post &ndash; start in text mode: make a placeholder like this</p>
+
+<pre><code>&lt;pre&gt;
+
+&lt;/pre&gt;
+</code></pre>
+
+<p>Then select and Ctrl-C your code.  Switch to visual mode and paste it in the placeholder space.</p>
+
+<p>Then before we go, try another hotpotato alternative: test out WP Survey &amp; Quiz Plugin (click the &ldquo;Next&rdquo; button to try a silly quiz.)</p>
+
+<p>[wpsqt name=&ldquo;Test run&rdquo; type=&ldquo;quiz&rdquo;]</p>
+]]></content>
+  </entry>
+  
+</feed>
