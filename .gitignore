@@ -1,0 +1,12 @@
+_site
+.sass-cache
+.jekyll-metadata
+.gaux
+.glog
+.gtex
+*.aux
+*.log
+*.dvi
+.aux
+.log
+.dvi
